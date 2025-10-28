@@ -7,7 +7,7 @@ This guide demonstrates two Laravel services communicating via Dapr Pub/Sub usin
 In **each** Laravel project:
 
 ```bash
-composer require alazziaz/laravel-dapr-events-suite
+composer require alazziaz/laravel-dapr-events
 php artisan dapr-events:install
 ```
 

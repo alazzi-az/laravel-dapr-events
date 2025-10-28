@@ -5,7 +5,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "alazziaz/laravel-dapr-foundation": "^1.0",
+        "alazziaz/laravel-dapr-foundation": "self.version",
         "illuminate/support": "^10.0|^11.0|^12.0",
         "illuminate/contracts": "^10.0|^11.0|^12.0",
         "illuminate/events": "^10.0|^11.0|^12.0",
