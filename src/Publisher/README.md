@@ -50,3 +50,7 @@ $fake->assertPublished(App\Events\OrderPlaced::class);
 ```
 
 See `tests/EventPublisherTest.php` for more examples.
+
+## PHP compatibility note
+
+Because the official `dapr/php-sdk` only publishes `dev-main` builds and targets PHP 8.4, consuming apps on PHP 8.2/8.3 must either allow dev stability (with `prefer-stable` still true) or lock to an SDK tag that supports their PHP version until upstream ships a stable release.

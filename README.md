@@ -28,3 +28,32 @@ composer require alazziaz/laravel-dapr-events
 - Example Laravel application under `examples/laravel-app` to demonstrate end-to-end usage.
 
 Refer to [`docs/quickstart.md`](docs/quickstart.md) for setup guidance, Dapr component examples, and workflow details.
+
+## PHP compatibility with `dapr/php-sdk`
+
+The official Dapr PHP SDK only ships development builds right now and its `dev-main` branch targets PHP 8.4. Until upstream tags a stable release, you have two practical options when installing these packages:
+
+1. Allow dev dependencies for the SDK in your consuming application:
+   ```json
+   {
+       "minimum-stability": "dev",
+       "prefer-stable": true
+   }
+   ```
+   or require the SDK explicitly with a dev constraint:
+   ```php
+   composer require dapr/php-sdk:dev-main --prefer-stable --ignore-platform-reqs
+   ```
+   or add to your `composer.json`:
+   ```json
+   {
+       "require": {
+           "dapr/php-sdk": "dev-main"
+       },
+       "prefer-stable": true
+   }
+   ```
+
+2. Pin to a released SDK version (for example `^1.2`) if you can work with the APIs available there.
+
+This requirement exists because the upstream Dapr SDK has not yet published a stable release that supports PHP 8.2/8.3.

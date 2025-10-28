@@ -60,3 +60,7 @@ Route::daprSubscriptions();
 ```
 
 With the publisher/listener packages installed, local Laravel events are automatically bridged to Dapr topics and inbound messages are re-dispatched as native events.
+
+## PHP compatibility note
+
+The upstream `dapr/php-sdk` currently exposes only `dev-main` builds and targets PHP 8.4. If your application is on PHP 8.2 or 8.3, you must either loosen `minimum-stability` (while keeping `prefer-stable: true`) or pin the SDK to a tagged release that supports your runtime until the project ships a stable 8.4-compatible version.

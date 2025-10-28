@@ -7,7 +7,8 @@ This guide demonstrates two Laravel services communicating via Dapr Pub/Sub usin
 In **each** Laravel project:
 
 ```bash
-composer require alazziaz/laravel-dapr-events
+composer require dapr/php-sdk:dev-main --prefer-stable --ignore-platform-reqs
+composer require alazziaz/laravel-dapr-events --ignore-platform-reqs 
 php artisan dapr-events:install
 ```
 

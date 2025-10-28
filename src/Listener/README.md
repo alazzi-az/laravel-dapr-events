@@ -41,3 +41,7 @@ Configured through `listener.middleware`:
 `php artisan dapr-events:listener App\\Events\\OrderPlaced` scaffolds a listener class in `app/Listeners`, defaulting to `OrderPlacedListener`.
 
 The stub integrates cleanly with Laravel's native event system—no special base classes required.
+
+## PHP compatibility note
+
+The listener depends on `dapr/php-sdk`, which currently only offers a `dev-main` branch targeting PHP 8.4. Projects running on PHP 8.2/8.3 should either loosen Composer’s minimum stability (while keeping `prefer-stable: true`) or pin the SDK to an earlier tag that supports their PHP version until a stable release is available.
