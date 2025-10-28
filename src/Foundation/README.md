@@ -1,5 +1,8 @@
 # Laravel Dapr Foundation
 
+[![Packagist Version](https://img.shields.io/packagist/v/alazziaz/laravel-dapr-foundation.svg?color=0f6ab4)](https://packagist.org/packages/alazziaz/laravel-dapr-foundation)
+[![Total Downloads](https://img.shields.io/packagist/dt/alazziaz/laravel-dapr-foundation.svg)](https://packagist.org/packages/alazziaz/laravel-dapr-foundation)
+
 Shared contracts, configuration, and service provider for bridging Laravel events with the Dapr Pub/Sub building block.
 
 ## Installation

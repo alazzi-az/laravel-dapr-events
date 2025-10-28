@@ -1,5 +1,8 @@
 # Laravel Dapr Events
 
+[![Packagist Version](https://img.shields.io/packagist/v/alazziaz/laravel-dapr-events.svg?color=0f6ab4)](https://packagist.org/packages/alazziaz/laravel-dapr-events)
+[![Total Downloads](https://img.shields.io/packagist/dt/alazziaz/laravel-dapr-events.svg)](https://packagist.org/packages/alazziaz/laravel-dapr-events)
+
 Laravel-friendly tooling for publishing and consuming framework events over [Dapr Pub/Sub](https://docs.dapr.io/developing-applications/building-blocks/pubsub/), mirroring the developer ergonomics of while swapping RabbitMQ, kafka transport for the Dapr sidecar.
 ## Packages
 

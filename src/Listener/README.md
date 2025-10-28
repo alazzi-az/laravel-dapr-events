@@ -1,5 +1,8 @@
 # Dapr Events Listener
 
+[![Packagist Version](https://img.shields.io/packagist/v/alazziaz/laravel-dapr-listener.svg?color=0f6ab4)](https://packagist.org/packages/alazziaz/laravel-dapr-listener)
+[![Total Downloads](https://img.shields.io/packagist/dt/alazziaz/laravel-dapr-listener.svg)](https://packagist.org/packages/alazziaz/laravel-dapr-listener)
+
 Discover Dapr topics, expose `/dapr/subscribe`, and handle ingress HTTP calls by re-dispatching Laravel events.
 
 ## Installation

@@ -1,5 +1,8 @@
 # Dapr Events Publisher
 
+[![Packagist Version](https://img.shields.io/packagist/v/alazziaz/laravel-dapr-publisher.svg?color=0f6ab4)](https://packagist.org/packages/alazziaz/laravel-dapr-publisher)
+[![Total Downloads](https://img.shields.io/packagist/dt/alazziaz/laravel-dapr-publisher.svg)](https://packagist.org/packages/alazziaz/laravel-dapr-publisher)
+
 Helper classes and middleware pipeline for publishing Laravel events through the Dapr sidecar.
 
 ## Installation
