@@ -1,0 +1,17 @@
+{
+    "name": "alazziaz/laravel-dapr-events",
+    "description": "Meta package bundling the Laravel Dapr Events foundation, publisher, and listener components.",
+    "type": "metapackage",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "alazziaz/laravel-dapr-foundation": "^1.0",
+        "alazziaz/laravel-dapr-publisher": "^1.0",
+        "alazziaz/laravel-dapr-listener": "^1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    }
+}

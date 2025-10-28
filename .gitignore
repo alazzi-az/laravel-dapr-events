@@ -1,0 +1,11 @@
+.idea
+vendor
+composer.lock
+.DS_Store
+coverage.xml
+.phpunit.cache
+test_apps
+test_apps/*
+internal_docs
+internal_docs/*
+.env

@@ -1,0 +1,51 @@
+{
+    "name": "alazziaz/laravel-dapr-publisher",
+    "description": "Publisher helpers for sending Laravel events over Dapr Pub/Sub.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "alazziaz/laravel-dapr-foundation": "^1.0",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/contracts": "^10.0|^11.0|^12.0",
+        "illuminate/events": "^10.0|^11.0|^12.0",
+        "dapr/php-sdk": "dev-main"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "pestphp/pest": "^2.0",
+        "mockery/mockery": "^1.6",
+        "phpstan/phpstan": "^1.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlazziAz\\DaprEventsPublisher\\": "src/"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AlazziAz\\DaprEventsPublisher\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlazziAz\\DaprEventsPublisher\\ServiceProvider"
+            ]
+        }
+    },
+    "repositories": {
+        "dapr-php-sdk": {
+            "type": "vcs",
+            "url": "https://github.com/dapr/php-sdk"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "scripts": {
+        "test": "pest"
+    }
+}
