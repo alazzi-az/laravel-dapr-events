@@ -8,7 +8,7 @@ function split() {
     local prefix=$1
     local remote=$2
 
-    SHA1=$(./bin/splitsh-lite --prefix="$prefix")
+    SHA1=$(splitsh-lite --prefix="$prefix")
     git push "$remote" "$SHA1:refs/heads/$CURRENT_BRANCH" -f
 }
 
