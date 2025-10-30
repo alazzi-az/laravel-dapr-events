@@ -29,6 +29,10 @@ composer require alazziaz/laravel-dapr-events
 
 Refer to [`docs/quickstart.md`](docs/quickstart.md) for setup guidance, Dapr component examples, and workflow details.
 
+### Example applications
+
+Looking for a full end-to-end demo? Check out the companion repo: [mohammedazman/laravel-dapr-events-example](https://github.com/mohammedazman/laravel-dapr-events-example). It contains a pair of Laravel services wired up with these packages and ready to run against a Dapr sidecar.
+
 ## PHP compatibility with `dapr/php-sdk`
 
 The official Dapr PHP SDK only ships development builds right now and its `dev-main` branch targets PHP 8.4. Until upstream tags a stable release, you have two practical options when installing these packages:
