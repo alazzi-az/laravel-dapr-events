@@ -1,6 +1,7 @@
 {
     "name": "alazziaz/laravel-dapr-events",
-    "description": "Laravel-friendly tooling for publishing and consuming events over Dapr Pub/Sub.",
+    "description": "Deprecated — use alazziaz/laravel-dapr instead.",
+    "abandoned": "alazziaz/laravel-dapr",
     "keywords": [
         "laravel",
         "dapr",
