@@ -1,3 +1,4 @@
+# ⚠️ Package Deprecated — Moved to [alazziaz/laravel-dapr](https://github.com/alazzi-az/laravel-dapr)
 # Laravel Dapr Events
 
 [![Packagist Version](https://img.shields.io/packagist/v/alazziaz/laravel-dapr-events.svg?color=0f6ab4)](https://packagist.org/packages/alazziaz/laravel-dapr-events)
